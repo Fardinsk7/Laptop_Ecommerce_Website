@@ -1,0 +1,30 @@
+.main{
+    height: 70vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .Authform{
+    display:flex;
+    flex-direction: column;
+    width:300px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 8px rgb(200, 200, 200);
+}
+.main form input[type="text"],input[type="email"]{
+    text-transform: none;
+    padding: 10px 5px;
+    margin:10px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+form .bottom{
+    font-size: 12px;
+    margin: auto;
+    padding: 8px;
+    font-weight: 700;
+}
